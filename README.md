@@ -1,4 +1,4 @@
-# Terraform Project
+# AWS ECS httpd Terraform Project
 This project is a Terraform configuration for deploying an Amazon ECS (Elastic Container Service) application. It is organized into multiple files and modules for better maintainability and clarity.
 
 ## English Version
