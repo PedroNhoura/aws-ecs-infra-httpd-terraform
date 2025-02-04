@@ -1,0 +1,17 @@
+# Ignorar a pasta .terraform
+.terraform/
+
+# Ignorar arquivos de estado do Terraform
+*.tfstate
+*.tfstate.*
+
+# Ignorar arquivos de lock do Terraform
+.terraform.lock.hcl
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de planos do Terraform
+*.tfplan
+
+
