@@ -1,6 +1,29 @@
 # Terraform Project
-
 This project is a Terraform configuration for deploying an Amazon ECS (Elastic Container Service) application. It is organized into multiple files and modules for better maintainability and clarity.
+
+## English Version
+
+### Project Overview
+
+This Terraform project sets up an Amazon ECS service running an `httpd` container behind a load balancer. The infrastructure is defined using Terraform and includes a CI/CD pipeline using AWS services.
+
+### Key Features
+
+- **ECS Cluster**: Deploys an ECS cluster to run the `httpd` container.
+- **Load Balancer**: Configures an Application Load Balancer (ALB) to distribute traffic to the ECS service.
+- **CI/CD Pipeline**: Implements a CI/CD pipeline using AWS CodePipeline, CodeBuild, and CodeDeploy for automated deployments.
+
+## Versão em Português
+
+### Visão Geral do Projeto
+
+Este projeto Terraform configura um serviço Amazon ECS executando um contêiner `httpd` atrás de um balanceador de carga. A infraestrutura é definida usando Terraform e inclui um pipeline CI/CD usando serviços da AWS.
+
+### Principais Características
+
+- **Cluster ECS**: Implanta um cluster ECS para executar o contêiner `httpd`.
+- **Balanceador de Carga**: Configura um Application Load Balancer (ALB) para distribuir o tráfego para o serviço ECS.
+- **Pipeline CI/CD**: Implementa um pipeline CI/CD usando AWS CodePipeline, CodeBuild e CodeDeploy para implantações automatizadas.
 
 ## Project Structure
 
