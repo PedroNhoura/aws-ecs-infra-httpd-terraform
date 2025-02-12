@@ -14,3 +14,8 @@ variable "ecs_service_sg_id" {
   description = "The security group ID for the ECS service"
   type        = string
 }
+
+variable "ecs_instance_profile_name" {
+  description = "The name of the ECS instance profile"
+  type        = string
+}
